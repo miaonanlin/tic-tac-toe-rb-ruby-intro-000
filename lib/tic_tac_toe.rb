@@ -76,6 +76,7 @@ def won?(board)
   }
   return false
 end
+end 
 
 def full?(board)
   board.all? {|index| index == "X" || index == "O"}
@@ -126,3 +127,4 @@ def play(board)
     puts "Cats Game!"
   end
 end
+
